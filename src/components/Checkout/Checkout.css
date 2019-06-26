@@ -1,0 +1,50 @@
+.container {
+    margin-top: 10px;
+   }
+   
+   .purchase-card{
+       width: 350px;
+       box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2), 0 6px 20px 0 rgb(0,0,0,0.19);
+       padding: 1em;
+   }
+   
+   .purchase-card > .show-grid{
+      
+       padding-bottom: 1.5em;
+   }
+   
+   
+   
+   h2 {
+       font-size: 15px;
+       font-weight: 500;
+     }
+     
+     h1 {
+       font-size: 21px;
+       font-weight: 900;
+     }
+     
+     .ExpanderContainer {
+       display: flex;
+       flex-direction: column;
+     }
+     
+     .Expander {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       float: left;
+     }
+     
+     .Expander > h2 {
+       text-decoration: underline;
+       cursor: pointer;
+     }
+     
+     .Expander > h1 {
+       margin-left: 10px;
+       font-size: 20px;
+       font-weight: 200;
+       cursor: pointer;
+     }
